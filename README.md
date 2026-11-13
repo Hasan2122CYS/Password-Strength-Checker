@@ -37,7 +37,7 @@ Password-Strength-Checker/
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/Hasan2122CYS/Password-Strength-Checker.git
 ```
 
 Navigate to the project directory:
