@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "password-strength-checker"
+version = "1.0.0"
+description = "Offline-first password guessability analysis with an optional privacy-preserving breach check."
+readme = "README.md"
+requires-python = ">=3.10"
+license = "MIT"
+authors = [{ name = "Password Strength Checker Contributors" }]
+dependencies = ["zxcvbn==4.5.0"]
+
+[project.scripts]
+password-checker = "password_strength_checker.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
